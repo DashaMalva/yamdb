@@ -113,6 +113,12 @@ $ python manage.py load-data
 $ python manage.py runserver
 ```
 
+### Адреса сервера с работающим приложением
+- [Список произведений (API)](http://malvayamdb.hopto.org/api/v1/titles/)
+- [Документация API](http://malvayamdb.hopto.org/redoc/)
+- [Админ-панель](http://malvayamdb.hopto.org/admin/)
+
+
 ### Лицензия
 The MIT License (MIT)
 
