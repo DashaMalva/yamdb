@@ -1,8 +1,16 @@
 # Проект YaMDb
 ![workflow status](https://github.com/DashaMalva/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg) <br>
+[![Python](https://img.shields.io/badge/-Python-464646?style=flat-square&logo=Python)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/-Django-464646?style=flat-square&logo=Django)](https://www.djangoproject.com/)
+[![Django REST Framework](https://img.shields.io/badge/-Django%20REST%20Framework-464646?style=flat-square&logo=Django%20REST%20Framework)](https://www.django-rest-framework.org/)
+[![gunicorn](https://img.shields.io/badge/-gunicorn-464646?style=flat-square&logo=gunicorn)](https://gunicorn.org/)
+[![Nginx](https://img.shields.io/badge/-NGINX-464646?style=flat-square&logo=NGINX)](https://nginx.org/ru/)
+[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-464646?style=flat-square&logo=PostgreSQL)](https://www.postgresql.org/)
+[![docker](https://img.shields.io/badge/-Docker-464646?style=flat-square&logo=docker)](https://www.docker.com/)
+
 YaMDb - каталог фильмов, книг и музыкальных альбомов с системой рейтингов, отзывов и комментариев к отзывам.
 ### Описание проекта
-Проект YaMDb является учебным и представляет из себя каталог художественных произведений различных категорий. Например, произведения могут  делиться на категории ```Книги```, ```Фильмы```, ```Музыка```. Список категорий может быть расширен новыми категориями через интерфейс администратора в Django. Сами произведения в каталоге не хранятся. К произведениям из каталога пользователи могут оставлять отзывы и выставлять оценки. К отзывам пользователи могут оставлять свои комментарии.
+Проект YaMDb является учебным и представляет собой каталог художественных произведений различных категорий. Например, произведения могут  делиться на категории ```Книги```, ```Фильмы```, ```Музыка```. Список категорий может быть расширен новыми категориями через интерфейс администратора в Django. Сами произведения в каталоге не хранятся. К произведениям из каталога пользователи могут оставлять отзывы и выставлять оценки. К отзывам пользователи могут оставлять свои комментарии.
 
 ### Технологии
 Python 3.7<br>
@@ -123,4 +131,4 @@ $ python manage.py runserver
 The MIT License (MIT)
 
 ### Авторы проекта
-Студенты Яндекс.Практикум , Когорта 12+, курс "API: интерфейс взаимодействия программ": Дарья Матвиевская, Елизавета Лобачевская, Вячеслав Казаков, Денис Нестеров
+Студенты Яндекс.Практикум, Когорта 12+, курс "API: интерфейс взаимодействия программ": Дарья Матвиевская, Елизавета Лобачевская, Вячеслав Казаков, Денис Нестеров
